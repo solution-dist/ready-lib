@@ -30,11 +30,11 @@
 - ## Install
 
     ```bash
-    space i @{{org}}/{{repo}}
+    space i {{tag}}
     ```
 
     ```ts
-    import * as {{repo}} from `@{{org}}/{{repo}}`;
+    import * as {{repo}} from `{{tag}}`;
     ```
 
 <!-- ╚═════════════════════════════════════════════════════════════════╝ -->

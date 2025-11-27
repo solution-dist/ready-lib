@@ -1,5 +1,5 @@
 {
-	"name"				: "@{{org}}/{{repo}}",
+	"name"				: "{{tag}}",
 	"version"			: "{{vers}}",
 	"description"		: "{{desc}}",
 	"keywords"			: "{{kw}}",
