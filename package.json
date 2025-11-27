@@ -1,6 +1,6 @@
 {
 	"name"				: "{{tag}}",
-	"version"			: "{{vers}}",
+	"version"			: "{{version}}",
 	"description"		: "{{desc}}",
 	"keywords"			: "{{kw}}",
 	"license"			: "MIT",
