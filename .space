@@ -1,0 +1,9 @@
+{
+  "name"            : "{{repo}}",
+  "type"            : "{{type}}",
+  "version"         : "{{version}}",
+  "description"     : "{{desc}}",
+  "author"          : "{{author}}",
+  "packageManager"  : "{{pm}}",
+  "createdAt"       : "2025-11-27T02:26:21.875Z"
+}
