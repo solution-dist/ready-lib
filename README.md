@@ -9,9 +9,9 @@
 
 <div align="center">
     <img src="https://img.shields.io/badge/v-{{version}}-black"/>
-    <a href="https://github.com/{{author_id}}">
+    <a href="{{author_url}}">
     </a>
-    <a href="{{url}}"> <img src="https://img.shields.io/badge/{{tag-badge}}-black"/> </a>
+    <a href="{{homepage}}"> <img src="https://img.shields.io/badge/{{tag-badge}}-black"/> </a>
 </div>
 
 <div align="center">
@@ -44,7 +44,7 @@
     - ### usage
 
         ```ts
-        import * as {{repo}} from `{{tag}}`;
+        import * as {{name}} from `{{tag}}`;
         ```
 
 <!-- ╚═════════════════════════════════════════════════════════════════╝ -->
