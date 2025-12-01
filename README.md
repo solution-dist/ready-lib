@@ -13,11 +13,7 @@
     </a>
     <a href="{{homepage}}"> <img src="https://img.shields.io/badge/{{tag-badge}}-black"/> </a>
 </div>
-
-<div align="center">
-    <img src="./assets/img/line.png" alt="line" style="display: block; margin-top:20px;margin-bottom:20px;width:500px;"/>
-    <br>
-</div>
+<br>
 
 <!-- ╚═════════════════════════════════════════════════════════════════╝ -->
 
@@ -27,35 +23,66 @@
 
 - ## Quick Start 🔥
 
-    - ### Pre
-
-        ```bash
-        # clone
-        space init <name> --type lib
-
-        # setup
-        cd <name>       # enter the project dir
-        space install   # install the dependencies if exists
-
-        # manage
-        space test      # run the tests
-        space build     # create `/dist/..`
-        space start     # build and start `/dist/main.js`
-        space publish   # to publish on `npm`
-        ```
+    > _**The simplest, fastest, most organized and stable way to build libraries and packages.**_
 
     - ### Usage
 
-        ```bash
-        # to install your library after publishing on `npm`
-        space i {{tag}}
-        ```
+        - #### Setup
 
-        ```ts
-        // to import your library after installing via `space`
-        // inside `.ts` file
-        import * as {{name}} from `{{tag}}`;
-        ```
+            > install [`space`](https://github.com/solution-lib/space) first.
+
+            - ##### Create
+
+                ```bash
+                > space init <name> -t lib    # This will clone this repo and make some changes to suit your lib.
+                > cd <name>                   # Go to the project directory
+                > space install               # Install the dependencies
+                ```
+
+            - ##### Manage
+
+                ```bash
+                > space build         # To build your lib
+                > space test          # To test  your lib
+                > space start         # To start your lib
+                > space publish       # To publish on `npm`
+                ```
+
+            - ##### Fianlly
+
+                ```bash
+                # to install your library after publishing on `npm`
+                space i {{tag}}
+                ```
+
+                ```ts
+                // to import your library after installing via `space`
+                import * as {{name}} from `{{tag}}`;
+                ```
+
+        <div align="center"> <img src="./assets/img/line.png" alt="line" style="display: block; margin-top:20px;margin-bottom:20px;width:500px;"/> <br> </div>
+
+        - #### Structure
+
+            - ##### Root
+
+                ```bash
+                ┣ assets        # The assets folder
+                ┃ ┗ ...
+                ┃
+                ┣ dist          # The distribution folder
+                ┃ ┗ ...
+                ┃
+                ┣ src           # The source-code folder
+                ┃ ┗ main.ts    # The main entry point file
+                ┃
+                ┣ test          # The tests folder
+                ┃ ┗ ...
+                ┃
+                ┗ .space        # The space configuration file
+
+                # You can safely hide/ignore the rest of files.
+                ```
 
 <!-- ╚═════════════════════════════════════════════════════════════════╝ -->
 
