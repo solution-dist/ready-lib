@@ -95,7 +95,7 @@
 ---
 
 <div align="center">
-    <a href="https://github.com/maysara-elshewehy"><img src="https://img.shields.io/badge/by-Maysara-black"/></a>
+    <a href="https://github.com/solution-lib/space"><img src="https://img.shields.io/badge/by-Space-black"/></a>
 </div>
 
 <!-- ╚═════════════════════════════════════════════════════════════════╝ -->
