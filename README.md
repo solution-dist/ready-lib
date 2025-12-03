@@ -71,7 +71,7 @@
 
                 ```bash
                 ┣ assets
-                ┃ ┗ ...            #  (png, ..)
+                ┃ ┗ ...            #  (logo.png, ..)
                 ┃
                 ┣ dist
                 ┃ ┗ ...            # (main.js, main.js.map, ...)
